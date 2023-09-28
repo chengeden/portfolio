@@ -1,11 +1,11 @@
+import Title from "../PageTitle/PageTitle";
 import Wrapper from "../PageWrapper/PageWrapper";
-import PersonalInfo from "../PersonalInfo/PersonalInfo";
 import ContactDetails from "./components/ContactDetails/ContactDetails";
 
 const ContactPage = () => {
 	return (
 		<Wrapper>
-			<PersonalInfo />
+			<Title>CONTACT</Title>
 			<ContactDetails />
 		</Wrapper>
 	);

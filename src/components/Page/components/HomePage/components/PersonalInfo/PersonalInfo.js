@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import img from "../../../../assets/images/main_bg.png";
+import img from "../../../../../../assets/images/main_bg.png";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import GitHubIcon from "@mui/icons-material/GitHub";
 
@@ -57,7 +57,7 @@ const PersonalInfo = () => (
 		<Name>Eden Cheng</Name>
 		<Position>Fullstack Developer</Position>
 		<SocialMedias>
-			<SocialMediaItem target="_blank" href="https://www.linkedin.com/in/eden-cheng/"><LinkedInIcon /></SocialMediaItem>
+			<SocialMediaItem target="_blank" href="https://www.linkedin.com/in/eden-cheng"><LinkedInIcon /></SocialMediaItem>
 			<SocialMediaItem target="_blank" href="https://github.com/chengeden"><GitHubIcon /></SocialMediaItem>
 		</SocialMedias>
 	</Wrapper>

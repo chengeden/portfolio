@@ -50,6 +50,22 @@ const ContactDetails = () => (
 						</Link>
 					</Td>
 				</tr>
+				<tr>
+					<Td>Linkedin</Td>
+					<Td>
+						<Link href="https://www.linkedin.com/in/eden-cheng" target="_blank">
+							https://www.linkedin.com/in/eden-cheng
+						</Link>
+					</Td>
+				</tr>
+				<tr>
+					<Td>Github</Td>
+					<Td>
+						<Link href="https://github.com/chengeden" target="_blank">
+							https://github.com/chengeden
+						</Link>
+					</Td>
+				</tr>
 			</tbody>
 		</ContactInfo >
 	</Wrapper>

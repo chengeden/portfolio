@@ -1,18 +1,12 @@
-import styled from "styled-components";
 import Wrapper from "../PageWrapper/PageWrapper";
 import Title from "../PageTitle/PageTitle";
-
-const Content = styled.div`
-	padding: 32px 64px;
-`;
+import ExperienceDetails from "./components/ExperienceDetails/ExperienceDetails";
 
 const ExperiencePage = () => {
 	return (
 		<Wrapper>
 			<Title>EXPERIENCES</Title>
-			<Content>
-				experience
-			</Content>
+			<ExperienceDetails />
 		</Wrapper>
 	);
 };
