@@ -1,5 +1,8 @@
 import styled from "styled-components";
+import HomePage from "./components/HomePage/HomePage";
+import ExperiencePage from "./components/ExperiencePage/ExperiencePage";
 import SkillsPage from "./components/SkillsPage/SkillsPage";
+import ContactPage from "./components/ContactPage/ContactPage";
 
 const Wrapper = styled.div`
 	padding: 15px 0;
@@ -10,13 +13,12 @@ const Wrapper = styled.div`
 const Page = ({ activePage }) => {
 	return (
 		<Wrapper>
-			{activePage === "HOME_PAGE" && <div>Home Page</div>}
-			{activePage === "EXPERIENCE_PAGE" && <div>Experience Page</div>}
-			{/*{activePage === "SKILLS_PAGE" && <div>Skills Page</div>}*/}
+			{activePage === "HOME_PAGE" && <HomePage />}
+			{activePage === "EXPERIENCE_PAGE" && <ExperiencePage />}
 			{activePage === "SKILLS_PAGE" && <SkillsPage />}
-			{activePage === "CONTACT_PAGE" && <div>Contact Page</div>}
+			{activePage === "CONTACT_PAGE" && <ContactPage />}
 		</Wrapper>
 	);
 };
 
-export default Page;
+export default Page;;
