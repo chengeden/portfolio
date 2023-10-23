@@ -27,9 +27,9 @@ const Project = () => (
 	<Wrapper>
 		<div>
 			<Title>
-				<TitleHighlight>Project</TitleHighlight>
+				<TitleHighlight>Team</TitleHighlight>
 				{" "}
-				Experience
+				Project
 			</Title>
 			<Timelines>
 				<Timeline
@@ -43,7 +43,7 @@ const Project = () => (
 							<li>Participated in and contributed daily stand-up meetings and sprint planning meetings.</li>
 							<li>Fetched movie data from third-party API(TMDB) and display to user-friendly design.</li>
 							<li>Created a user friendly interface in the front-end using Nextjs, Typescript, Styled- component and Chakra UI, including hero banner, nowplaying and upcoming section in home page</li>
-							<li>Created Nowplaying and All movies page with list movies feature and sort by different conditions using React Hooks and Axios, and Infinite Scroll.</li>
+							<li>Created NowPlaying and All movies page with list movies feature and sort by different conditions using React Hooks and Axios, and Infinite Scroll.</li>
 							<li>Responsive design using Media Query</li>
 							<li>Used React useMemo hook to get better performance when rendering.</li>
 							<li>Managed application states with Redux Toolkit in order to avoid props drilling.</li>
@@ -85,29 +85,61 @@ const Project = () => (
 		</div>
 		<div>
 			<Title>
-				<TitleHighlight>Individual</TitleHighlight>
+				<TitleHighlight>Personal</TitleHighlight>
 				{" "}
 				Project
 			</Title>
 			<Timelines>
+				<Timeline
+					title={`Instagram Clone`}
+					time={`Sep 2023 ~ Present`}
+					description={
+						<>
+							<li>Developed a full-stack web application inspired by Instagram, enabling users to create, view, and manage posts and profiles.</li>
+							<b style={{ color: 'grey' }}>Backend:</b>
+							<li>Built the backend application using Express.js to create a RESTful API. </li>
+							<li>Integrated MongoDB for data storage, utilizing Mongoose for schema definitions and database interactions.</li>
+							<li>Implemented JWT based authentication for secure user login and route protection.</li>
+							<li>Developed models for users and posts with fields such as username, email, password, profile pictures, post images, and more.</li>
+							<li>Set up a modular route structure, segregating authentication, profiles, and post-related routes.</li>
+							<b style={{ color: 'grey' }}>Frontend:</b>
+							<li>Developed the frontend application using React, Redux-toolkit, react-router-dom, styled-components, Material-UI.</li>
+							<li>Utilized Redux to manage frontend data like user information, user profile and post data.</li>
+							<li>Designed a user-friendly interface with components such as Navbar, Home, and Post.</li>
+							<li>Implemented a dynamic navbar with features like search and a dropdown menu for user-related actions.</li>
+							<li>Developed the Home component to display stories and posts, enhancing user interaction.</li>
+							<li>Utilized React Router for seamless navigation between different components and views.</li>
+							<li>User Profiles: Allowed users to create and customize their profiles. Users can upload avatars, bios, and personal information.</li>
+							<li>Likes: Implemented a feature for users to like posts, display the number of likes for each post, and update likes in real-time.</li>
+							<li>Creating Posts: Enabled users to create new posts, upload images, add descriptive text.</li>
+							<b style={{ color: 'grey' }}>Deployment & Infrastructure:</b>
+							<li>Connected to a MongoDB database using a configuration file, ensuring a modular and maintainable codebase.</li>
+							<li>Set up CORS for handling cross-origin requests, ensuring frontend-backend communication.</li>
+						</>
+					}
+				/>
 				<Timeline
 					title={`Weather App`}
 					time={`May 2022 ~ Jun 2022`}
 					description={
 						<>
 							<li>Build a weather website using React, styled components, axios, JavaScript.</li>
-							<li>Showing local city's weather and forecast, other cities weather, and click city name to display detailed weather and forecast.</li>
+							<li>Shown local city's weather and forecast, other cities weather, and click city name to display detailed weather and forecast.</li>
+							<li>Used axios to fetch real time weather data from OpenWeatherMap API.</li>
+							<li>Used dotenv file to save secret key.</li>
+							<li><a href="https://chengeden.github.io/weather-app/" target="_blank" rel="noreferrer">Hosted on Github Page </a></li>
 						</>
 					}
 				/>
 				<Timeline
 					title={`Personal Website`}
-					time={`Mar 2022 ~ Apr 2022`}
+					time={`Apr 2022 ~ Apr 2022`}
 					description={
 						<>
-							<li>Build a website for a professional IT person using HTML, CSS and JavaScript.</li>
+							<li>Build a professional IT background website using React and Styled-Components</li>
 							<li>Simple Page Application</li>
 							<li>Responsive design</li>
+							<li><a href="https://chengeden.github.io/portfolio/" target="_blank" rel="noreferrer">Hosted on Github Page</a></li>
 						</>
 					}
 				/>
@@ -125,7 +157,7 @@ const Project = () => (
 								<dd>The programming used is Java</dd>
 							</li>
 							<li>To develop an e-Commerce website to sell innovative products, Aug 2010 - Oct 2010
-								<dd>- The general features is to include: Home page, Registration page for new user, Shopping cart and related pages, Product pages, Privacy Policy page, Site map.</dd>
+								<dd>The general features is to include: Home page, Registration page for new user, Shopping cart and related pages, Product pages, Privacy Policy page, Site map.</dd>
 								<dd>The key programming used is to include: HTML, CSS, JavaScript, PHP, SQL.</dd>
 							</li>
 						</>

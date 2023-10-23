@@ -43,14 +43,6 @@ const ContactDetails = () => (
 					</Td>
 				</tr>
 				<tr>
-					<Td>Phone</Td>
-					<Td>
-						<Link href="tel:0430 934 999">
-							0430 934 999
-						</Link>
-					</Td>
-				</tr>
-				<tr>
 					<Td>Linkedin</Td>
 					<Td>
 						<Link href="https://www.linkedin.com/in/eden-cheng" target="_blank">
